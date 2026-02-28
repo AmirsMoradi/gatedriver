@@ -1,0 +1,9 @@
+agent/app/main.py:
+
+trigger open :
+GateProtoClient.send_cmd(OP_DOOR_SET, OPEN)
+
+
+trigger_clise_now:
+GateProtoClient.send_cmd(OP_DOOR_SET, CLOSE)
+
